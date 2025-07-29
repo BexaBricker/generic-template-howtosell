@@ -6,6 +6,7 @@ import WhoIsBexaSection from '@/components/WhoIsBexaSection';
 import WhoShouldGetExamSection from '@/components/WhoShouldGetExamSection';
 import WhyItWorksSection from '@/components/WhyItWorksSection';
 import CostSection from '@/components/CostSection';
+import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
       <WhoShouldGetExamSection />
       <WhyItWorksSection />
       <CostSection />
+      <ContactForm />
       <Footer />
     </div>
   );

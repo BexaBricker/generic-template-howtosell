@@ -33,7 +33,7 @@ const WhyItWorksSection = () => {
         </h2>
         <div className="grid md:grid-cols-2 gap-4">
           {reasons.map((reason, index) => (
-            <div key={index} className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-lg p-3.5 hover:shadow-lg transition-shadow">
+            <div key={index} className="bg-gradient-to-br from-teal-50 to-gray-50 rounded-lg p-3.5 hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 mt-1">
                   {reason.icon}

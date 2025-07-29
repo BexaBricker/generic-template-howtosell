@@ -19,12 +19,12 @@ const Footer = () => {
           FDA Cleared (510K)
         </p>
         <p className="text-gray-400 text-lg mt-3 font-bold">
-          For inquiries and referrals please email{' '}
+          For inquiries and referrals please contact us at{' '}
           <a 
-            href="mailto:BCBSTX@mybexa.com" 
+            href="mailto:info@mybexa.com" 
             className="text-accent hover:text-accent/80 transition-colors text-3xl"
           >
-            BCBSTX@mybexa.com
+            info@mybexa.com
           </a>
         </p>
       </div>

@@ -6,7 +6,7 @@ const CostSection = () => {
   const costPoints = [
     {
       icon: <FileCheck className="w-5 h-5 text-accent" />,
-      text: "Paid as a claim for BCBS Texas clients"
+      text: "Paid as a claim for insurance clients"
     },
     {
       icon: <DollarSign className="w-5 h-5 text-accent" />,
@@ -19,7 +19,7 @@ const CostSection = () => {
   ];
 
   return (
-    <section className="section-spacing bcbs-blue text-white">
+    <section className="section-spacing bexa-teal text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-lg md:text-xl font-bold text-center mb-4">
           WHAT DOES IT COST?

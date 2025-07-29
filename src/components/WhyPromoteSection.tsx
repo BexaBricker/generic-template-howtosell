@@ -19,7 +19,7 @@ const WhyPromoteSection = () => {
   ];
 
   return (
-    <section className="section-spacing bg-gradient-to-br from-blue-50 to-teal-50">
+    <section className="section-spacing bg-gradient-to-br from-gray-50 to-teal-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-lg md:text-xl font-bold text-center mb-4 text-primary">
           WHY PROMOTE BEXA for Breast Cancer Early Detection?

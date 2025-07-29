@@ -25,7 +25,7 @@ const WhoIsBexaSection = () => {
         </h2>
         <div className="grid md:grid-cols-1 gap-4 max-w-4xl mx-auto">
           {features.map((feature, index) => (
-            <div key={index} className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg p-3.5 border-l-4 border-accent">
+            <div key={index} className="bg-gradient-to-r from-teal-50 to-gray-50 rounded-lg p-3.5 border-l-4 border-accent">
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 mt-1">
                   {feature.icon}
