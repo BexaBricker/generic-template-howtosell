@@ -20,7 +20,7 @@ const WhoIsBexaSection = () => {
   return (
     <section className="section-spacing bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-lg md:text-xl font-bold text-center mb-4 text-primary">
+        <h2 className="text-lg md:text-xl font-bold text-center mb-4 section-header">
           WHO IS BEXA?
         </h2>
         <div className="grid md:grid-cols-1 gap-4 max-w-4xl mx-auto">
@@ -30,7 +30,7 @@ const WhoIsBexaSection = () => {
                 <div className="flex-shrink-0 mt-1">
                   {feature.icon}
                 </div>
-                <p className="text-gray-700 text-sm leading-relaxed">
+                <p className="section-text text-sm leading-relaxed">
                   {feature.text}
                 </p>
               </div>

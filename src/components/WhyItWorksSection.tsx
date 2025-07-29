@@ -28,7 +28,7 @@ const WhyItWorksSection = () => {
   return (
     <section className="section-spacing bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-lg md:text-xl font-bold text-center mb-4 text-primary">
+        <h2 className="text-lg md:text-xl font-bold text-center mb-4 section-header">
           WHY DOES IT WORK?
         </h2>
         <div className="grid md:grid-cols-2 gap-4">
@@ -39,10 +39,10 @@ const WhyItWorksSection = () => {
                   {reason.icon}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary mb-1 text-sm">
+                  <h3 className="font-semibold section-text mb-1 text-sm">
                     {reason.title}
                   </h3>
-                  <p className="text-gray-700 leading-relaxed text-xs">
+                  <p className="section-text leading-relaxed text-xs">
                     {reason.text}
                   </p>
                 </div>

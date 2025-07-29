@@ -51,7 +51,7 @@
 
 
 .bexa-teal {
-  background-color: #40B5A8;
+  background-color: #948AAB;
 }
 
 .bexa-teal-text {
@@ -60,6 +60,14 @@
 
 .bexa-gray {
   color: #7A7A7A;
+}
+
+.section-header {
+  color: #948AAB;
+}
+
+.section-text {
+  color: #224658;
 }
 
 .section-spacing {

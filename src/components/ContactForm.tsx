@@ -127,14 +127,14 @@ const ContactForm = () => {
   return (
     <section className="section-spacing bg-gray-50">
       <div className="max-w-2xl mx-auto">
-        <h2 className="text-lg md:text-xl font-bold text-center mb-6 text-primary">
+        <h2 className="text-lg md:text-xl font-bold text-center mb-6 section-header">
           Contact Us
         </h2>
         
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="name">Name *</Label>
+              <Label htmlFor="name" className="section-text">Name *</Label>
               <Input
                 id="name"
                 {...register('name')}
@@ -147,7 +147,7 @@ const ContactForm = () => {
             </div>
 
             <div>
-              <Label htmlFor="workEmail">Work Email *</Label>
+              <Label htmlFor="workEmail" className="section-text">Work Email *</Label>
               <Input
                 id="workEmail"
                 type="email"
@@ -163,7 +163,7 @@ const ContactForm = () => {
 
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="company">Company *</Label>
+              <Label htmlFor="company" className="section-text">Company *</Label>
               <Input
                 id="company"
                 {...register('company')}
@@ -176,7 +176,7 @@ const ContactForm = () => {
             </div>
 
             <div>
-              <Label htmlFor="telephone">Telephone (Optional)</Label>
+              <Label htmlFor="telephone" className="section-text">Telephone (Optional)</Label>
               <Input
                 id="telephone"
                 type="tel"
@@ -187,7 +187,7 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <Label htmlFor="message">Message *</Label>
+            <Label htmlFor="message" className="section-text">Message *</Label>
             <Textarea
               id="message"
               {...register('message')}
@@ -247,7 +247,7 @@ const ContactForm = () => {
           </div>
         </form>
 
-        <p className="text-center text-sm text-gray-600 mt-4">
+        <p className="text-center text-sm section-text mt-4">
           * Required fields
         </p>
       </div>

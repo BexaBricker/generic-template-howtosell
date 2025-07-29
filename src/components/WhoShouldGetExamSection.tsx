@@ -20,21 +20,21 @@ const WhoShouldGetExamSection = () => {
   ];
 
   return (
-    <section className="section-spacing bg-gradient-to-br from-teal-50 to-gray-50">
+    <section className="section-spacing bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-lg md:text-xl font-bold text-center mb-1 text-primary">
+        <h2 className="text-lg md:text-xl font-bold text-center mb-1 section-header">
           WHO SHOULD GET A BEXA BREAST EXAM?
         </h2>
-        <p className="text-primary text-center mb-6 text-sm">
+        <p className="section-header text-center mb-6 text-sm">
           With Bexa No Woman Is Left Behind
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           {criteria.map((criterion, index) => (
-            <div key={index} className="bg-white rounded-lg p-3.5 shadow-lg text-center hover:shadow-xl transition-shadow">
+            <div key={index} className="rounded-lg p-3.5 shadow-lg text-center hover:shadow-xl transition-shadow" style={{backgroundColor: '#C9C4D5'}}>
               <div className="flex justify-center mb-2">
                 {criterion.icon}
               </div>
-              <p className={`text-gray-700 text-sm leading-relaxed ${criterion.isBold ? 'font-bold' : ''}`}>
+              <p className={`section-text text-sm leading-relaxed ${criterion.isBold ? 'font-bold' : ''}`}>
                 {criterion.text}
               </p>
             </div>
