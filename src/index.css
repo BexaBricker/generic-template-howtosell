@@ -1,0 +1,62 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color scheme inspired by Blue Cross Blue Shield */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 205 100% 34%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 168 76% 42%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 205 100% 34%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Aptos', 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+  }
+}
+
+.bcbs-blue {
+  background: linear-gradient(135deg, #0066CC 0%, #004499 100%);
+}
+
+.bexa-green {
+  color: #40B5A8;
+}
+
+.section-spacing {
+  @apply py-8 px-4;
+}
